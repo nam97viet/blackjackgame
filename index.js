@@ -99,3 +99,7 @@ function resetGame() {
     messageEl.textContent = message;
     isStartGame = true
 }
+
+buttons.forEach(button => {
+    button.classList.add("clicked");
+});

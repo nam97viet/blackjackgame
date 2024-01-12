@@ -34,3 +34,7 @@ button:hover {
     background-color: white;
     cursor: pointer;
 }
+
+button.clicked {
+    background-color: goldenrod;
+}
